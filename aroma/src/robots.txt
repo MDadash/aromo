@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82/
+Disallow: /terms_of_use.html
+Disallow: /returns.php
+Disallow: /sms/
+Disallow: /sms/send_post_id.php
+Disallow: /api/
+Sitemap: http://xn----7sbaf4afjeuxony.xn--p1ai/sitemap.xml

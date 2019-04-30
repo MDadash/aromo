@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . api/index.php [L]
+
+RewriteCond %{HTTP_HOST} ^www.aroma.loki194x.beget.tech/ [NC]
+RewriteRule ^(.*)$ http://aroma.loki194x.beget.tech/ [R=301,L]

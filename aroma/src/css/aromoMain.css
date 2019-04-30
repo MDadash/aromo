@@ -1,0 +1,726 @@
+body{
+	background: #d4bcf2;
+}
+.slider_2_sec_2 h1{
+	
+}
+#happenings{
+	text-align: left;
+}
+.Aromatherapy h2{
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.Aromatherapy span{
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 28px;
+	font-weight: 500;
+}
+.Aromatherapy p{
+	margin-top: 25px;
+	color: #390037;
+	font-family: "Adobe Clean";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23.99px;
+}
+#happenings{
+	background: url(../images/C&D-assets/woman_section5.png)100% 100%no-repeat;
+	background-size: contain;
+}
+.parfume_addition_headText h2{
+	text-align: center;
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.parfume_additions_rooms_1{
+	background: url(../images/C&D-assets/home_section6.jpg)no-repeat center;
+	position: relative;
+	height: 750px;
+    background-size: cover;
+    margin-bottom: 100px;
+    border-top: 5px solid #7f3a7b;
+}
+.parfume_additions_rooms_buttons{
+	overflow: hidden;
+	background-color: rgba(127, 58, 123, 0.6);
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.parfume_additions_rooms_buttons p{
+	color: #ffffff;
+	font-family: "Museo Sans Cyrl";
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 30px;
+	border: 4px solid #fef2f1;
+	margin: 20px 60px;
+}
+.parfume_additions_rooms_2{
+	background: url(../images/C&D-assets/office_section6.jpg)no-repeat center;
+	position: relative;
+	height: 750px;
+    background-size: cover;
+    margin-bottom: 100px;
+    border-top: 5px solid #ff00dc;
+}
+.parfume_additions_rooms_2 .parfume_additions_rooms_buttons{
+	overflow: hidden;
+	background-color: rgba(255, 0, 220, 0.6);
+	width: 100%;
+	position: absolute;
+	bottom: 0;	
+}
+.parfume_additions_rooms_3{
+	background: url(../images/C&D-assets/gift_section6.jpg)no-repeat center;
+	position: relative;
+	height: 750px;
+    background-size: cover;
+    margin-bottom: 100px;
+    border-top: 5px solid #8c64b4;
+}
+.parfume_additions_rooms_3 .parfume_additions_rooms_buttons{
+	overflow: hidden;
+	background-color: rgba(140, 100, 180, 0.6);
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+#table_aerosol{
+	padding: 35px 0;
+	position: relative;
+	background: url(../images/backs/line_table.png)65% 100%no-repeat;
+}
+#table_aerosol:last-child{
+	background: unset;
+}
+.aerosol_comparison_headText h2{
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 95px;
+}
+.aerosol_comparison_aerosol img{
+	margin-top: 36px;
+}
+.aerosol_comparison_aerosol p{
+	margin-top: 10px;
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 20px;
+	font-weight: 400;
+}
+.aerosol_comparison_flavoring p{
+	margin-top: 10px;
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 20px;
+	font-weight: 400;
+}
+.aerosol_comparison_tb1{
+	display: flex;
+}
+.aerosol_comparison_tb1 p{
+	margin-left: 48px;
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 28px;
+}
+.aerosol_comparison_x1{
+	color: #ff00e7;
+	font-size: 35px;
+}
+.aerosol_comparison_x2{
+	font-size: 35px;
+	color: #7d3979;
+}
+#faq{
+	background: unset;
+}
+.faq_headText h2{
+	color: #793775;
+font-family: "Museo Sans Cyrl";
+font-size: 50px;
+font-weight: 900;
+text-transform: uppercase;
+}
+#faq-spoilers{
+	border-top: unset;
+}
+.spoiler .spoil-header p{
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 25px;
+	font-weight: 500;
+	border: unset;
+}
+.spoiler .spoil-header p:hover{
+	color: #ff00e7;
+}
+.spoiler .spoil-header p span{
+	border-radius: 50%;
+    border: 3px solid #793775;
+    background: transparent;
+}
+.spoiler .spoil-body p{
+	background: transparent;
+	color: #390037;
+	font-family: "Adobe Clean";
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 23.99px;
+	border: unset;
+}
+.active .spoil-header p{
+	color: #ff00e7;
+}
+.active .spoil-header p span{
+	border: 3px solid #ff00e7;
+}
+.spoiler .spoil-header p span:after{
+	background: url(../images/icons/angle-right-solid.svg)50% no-repeat;
+}
+.active .spoil-header p span:after{
+	background: url(../images/icons/angle-right-solid-active.svg)50% no-repeat;
+}
+.bouquet{
+	text-align: center;
+	margin-top: 100px;
+}
+.faq_buttons p{
+	margin-top: 105px;
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 16px;
+	font-weight: 300;
+}
+.foto_customer{
+	text-align: center;
+	margin: 25px;
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 57px;
+	font-weight: 400;
+}
+#delivery .container{
+	padding-bottom: 20px;
+	padding-top: 35px;
+}
+#delivery-wrap{
+	margin-bottom: 100px;
+}
+#delivery{
+	background: unset;
+}
+.free_delivery h2{
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#delivery .free_delivery p{
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 28px;
+	font-weight: 400;
+}
+#delivery .free_delivery_maps p{
+	color: #390037;
+	font-family: "Adobe Clean";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23.99px;
+}
+#delivery-wrap p{
+	color: #390037;
+	font-family: "Adobe Clean";
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 23.99px;
+}
+#payments-wrap{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+}
+#payments-wrap img{
+	margin: 0 16px;
+}
+.payments_logo p{
+	color: #390037;
+	font-family: "Bask Old Face";
+	font-size: 59px;
+	font-weight: 400;
+	line-height: 43.39px;
+	text-transform: uppercase;	
+}
+.payments_logo span{
+	color: #390037;
+	font-family: "Arial MT";
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 17.97px;
+	text-transform: uppercase;
+}
+.payments_addres p{
+	color: #a4a4a4;
+	font-family: "Museo Sans Cyrl";
+	font-size: 14px;
+	font-weight: 400;
+}
+.and{
+	/* Text style for "&" */
+	font-size: 32px !important;
+}
+#footer{
+	margin-bottom: 0px;
+	color: #787878;
+	font-family: "Museo Sans Cyrl -100";
+	font-size: 23px;
+	font-weight: 400;
+	background-color: #ffffff;
+	border-bottom: unset;
+}
+
+.text_hover{
+	display: block;
+	padding: 5px 10px;
+	color: #ffffff;
+    font-family: "Adobe Clean";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.99px;
+    visibility: visible;
+}
+.icon-div img{
+	 -moz-transition: all 0.5s ease-out;
+	 -o-transition: all 0.5s ease-out;
+	 -webkit-transition: all 0.5s ease-out;
+}
+.icon-div img:hover{
+	-webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+}
+/*...................BUTONS_ALL...............*/
+
+/*.quick-order{
+	background: unset;
+	padding-left: 15px;
+}
+.buy-now{
+	background: unset;
+	padding-left: 15px;
+}*/
+/*.butt{
+	border: 3px solid #000000;
+	color: #390037;
+	background-color: transparent !important;
+	color: #390037;
+	font-family: "Museo Sans Cyrl -700";
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 49.48px;
+}*/
+/*.page-butt.light{
+	color: #390037;
+}*/
+/*.................Sliders.............*/
+#slider_max_w .page-slider{
+	margin-bottom: 56px;
+	height: 100%;
+}
+#slider_max_w .owl-dot span{
+	background: #ffffff;
+	box-shadow: 0px 0px 0 1px #793775;
+}
+#slider_max_w .owl-dot.active span{
+	box-shadow: 0px 0px 0 5px #793775;
+}
+#slider_max_w .owl-dots{
+	bottom: -36px;
+}
+.rooms:hover .hvr-float{
+	height: 50%;
+	transition: all .8s;
+}
+.hvr-float:active, .hvr-float:focus, .hvr-float:hover{
+	height: 50%;
+	transition: all .8s;	
+	    transform: translateY(0px);
+}
+/*#slider_max_w .owl-prev{
+	position: absolute;
+    background: url(../images/C&D-assets/arrow-left_secton9.png) no-repeat center center;
+    width: 60px;
+    top: 160px;
+    height: 62px;
+    left: -50px;
+}
+#slider_max_w .owl-next{
+	position: absolute;
+    background: url(../images/C&D-assets/arrow-right_section9.png) no-repeat center center;
+    width: 60px;
+    top: 160px;
+    height: 62px;
+    right: -50px;
+}*/
+/*........................Basket......................*/
+
+#Trash{background: #ffffff}
+#basket h3{
+	color: #793775;
+}
+#all-summ{
+	color: #793775
+}
+.active_check:after{
+	background-color: #f000c6;
+}
+.inputs-wrap label:before{
+	border-color: #f000c6;
+}
+.inputs-wrap label:hover:before{
+	border-color: #f000c6;
+}
+.inputs-wrap label span.orange{
+	color: #f000c6;
+}
+.inputs-wrap .page-butt, .inputs-wrap .btn-pay{
+	background-color: #390037 !important;
+	color: #f000c6;
+	width: 250px !important;
+	height: 49px;
+	border: 3px solid #f000c6;
+	color: #ff00d2;
+	font-family: "Museo Sans Cyrl";
+	font-size: 21px;
+	font-weight: 700;
+	line-height:41.92px;
+	text-transform: uppercase;
+}
+#payments-wrap{	
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 37px;
+}
+.popup-window{
+	width: 585px;
+	padding: 30px 100px 0;
+}
+.popup-window h3{
+	color: #793775;
+	font-family: "Museo Sans Cyrl";
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 39.06px;
+	text-transform: uppercase;
+}
+.popup-window p{
+	color: #67666b;
+	font-family: "Adobe Clean";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+	/* Text style for "М, ы свяже" */
+	letter-spacing: 0.16px;
+}
+.popup-window input, .popup-window textarea{
+	border-top-width: 1px;
+}
+.popup-window button{
+	display: inline-block;
+    font: 500 18px / 45px "Museo Sans Cyrl";
+    border: 3px solid #f000c6;
+    border-radius: 4px;
+    transition: .15s;
+    background-color: #390037!important;
+    color: #f000c6;
+}
+#basket-wrap .img{
+	margin-top: 15px;
+}
+#basket-wrap .basket-col:nth-child(1){
+	width: 175px;
+}
+#basket-wrap .basket-col:nth-child(2){
+	width: 190px;
+}
+#basket-wrap .col-price{
+	padding-top: 0;
+}
+#basket-select{
+	border: 1px solid #e4e4e4;
+    background-color: #fbf8f8;
+    outline: none;
+    height: 42px;
+}
+#basket-wrap .basket-col:nth-child(3){
+	width: 175px;
+}
+/*.btn-group, .btn-group-vertical{
+	margin-top: 41px;
+}
+.btn-default{
+	background-color: #fbf8f8;
+}*/
+/*.btn-group>.btn+.dropdown-toggle{
+	background-color: #c0c0c0;
+	color: #fff;
+}
+.btn-group>.btn+.dropdown-toggle:focus, .btn-group>.btn+.dropdown-toggle:hover{
+	background-color: #f000c6;
+	color: #fff;
+}
+.open>.dropdown-menu{
+	background-color: #fbf8f8;
+}*/
+#basket-wrap .count-change{
+	background-color: #c0c0c0;
+}
+#basket-wrap .count-change:hover{
+	background-color: #f000c6;
+}
+#select{
+	position: relative;
+	display: block;
+	margin-top: 46px;
+    padding: 6px;
+    background-color: #fbf8f8;
+    outline-color: transparent;
+}
+#select:after {
+  content: "";
+  padding: 0 8px;
+  font-size: 12px;
+  position: absolute;
+  right: 8px;
+  top: 4px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+.count-change_x{
+	width: 17px;
+    height: 17px;
+    margin: 0 8px;
+    padding: 0;
+    color: #f5f5f5;
+    line-height: 15px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    outline: 0!important;
+    transition: .12s;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 25px;
+}
+.count-change_plus{
+	width: 17px;
+    height: 17px;
+    margin: 0 8px;
+    padding: 0;
+    color: #f5f5f5;
+    line-height: 15px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    outline: 0!important;
+    transition: .12s;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 25px;
+}
+#basket-wrap .basket_row_2:nth-child(1){
+	width: 1010px;
+	text-align: center;
+	padding: 25px 0;
+}
+.basket_row_2 form button:nth-child(1){
+	padding: 20px 40px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #a8a8a8;
+}
+#basket-wrap .basket_row_2:nth-child(2){
+	width: 190px;
+	text-align: right;
+	margin: 0;
+}
+.inputs-wrap #input-city, .inputs-wrap input{
+	border: 2px solid #bababa;
+}
+#basket-wrap .basket-row{	
+	border: unset;
+	border-bottom: 2px solid;
+    border-image: url(../images/backs/line_table.png) 2 round;
+}
+#basket-wrap .header-col{
+	border-bottom: 2px solid #eedfee;
+	
+}
+#basket-wrap .basket-row:last-child{
+	border: unset;
+	border-bottom: 2px solid;
+    border-image: url(../images/backs/line_table.png) 2 round;
+}
+#basket-wrap .first_child{
+	border: unset;
+	border-bottom: 2px solid;
+    border-image: url(../images/backs/border-left.png) 2 round;
+}
+#basket-wrap .last_child{
+	border: unset;
+	border-bottom: 2px solid;
+    border-image: url(../images/backs/border-right.png) 2 round;
+}
+
+@media screen and (max-width: 1200px){
+	#basket-wrap .basket-col:nth-child(1){
+		width: 90px;
+	}
+	#basket-wrap .basket-col:nth-child(4) h5{
+		font-size: 15px;
+	}
+	#basket-wrap .basket_row_2:nth-child(1){
+		width: 750px;
+	}
+}
+@media screen and (max-width: 991px){	
+	.parfume_additions_rooms_buttons{
+		height: 50px;
+	}
+	#basket-wrap .basket-col:nth-child(1){
+		width: 48px;
+	}
+	#basket-wrap .basket-col:nth-child(2){
+		width: 140px;
+	}
+	#basket-wrap .basket-col p{
+		padding-top: 49px;
+	}
+	.parfume_additions_rooms_buttons p{
+		margin: 0;
+	}
+	#basket-wrap .basket-col:nth-child(3){
+		width: 155px;
+	}
+	#basket-wrap .basket-col:nth-child(4) h5{
+		font-size: 12px;
+	}
+	#basket-wrap .basket-col:nth-child(5) .header-col, #basket-wrap .basket-col:nth-child(5) h5{
+		padding-left:  0;
+	}
+	#basket-wrap .basket_row_2:nth-child(1){
+		width: 575px;
+	}
+}
+@media screen and (max-width: 767px){
+	.popup-window{
+		width: 305px;
+		padding: 30px 27px 0;
+	}
+	.aerosol_comparison_tb1 p{
+		font-size: 15px;
+		line-height: 23px;
+		margin-left: 10px;
+	}
+	.parfume_additions_rooms_3, .parfume_additions_rooms_2, .parfume_additions_rooms_1{
+		height: 400px;
+	}
+	#select{
+		margin-top: 22px;
+    display: block;
+    width: 100%;
+    margin-bottom: 22px;
+	}
+	#basket .basket-col{
+		border-bottom:  none;
+	}
+	#basket-wrap .basket-col:nth-child(1){
+		width: 100%;
+	}
+	#basket-wrap .basket-col:nth-child(2){
+		width: 100%;
+	}
+	#basket-wrap .basket-col:nth-child(3){
+		width: 100%;
+	}
+	#basket-wrap .basket_row_2:nth-child(1){
+		width: 100%;
+		margin-left: 15px;
+	}	
+	#basket-wrap .basket-col:nth-child(4) h5{
+		font-size: 23px;
+		padding: 0;
+	}
+	.count-change_plus{
+		display: none;
+	}
+	.count-change_x{
+		position: absolute;
+		top: 47px;
+		left: 206px;
+		z-index: 99;
+	}
+	#basket-wrap .basket-row:last-child{
+		display: block !important;
+	}
+	.aerosol_comparison_headText h2{
+		font-size: 32px !important;
+	}
+	#slider_max_w .owl-next, #slider_max_w .owl-prev{
+		display: none !important;
+	}
+	.payments_addres{
+		margin: 15px 0;
+	}
+	.bouquet img{
+		width: 244px;
+	}
+	.aerosol_comparison_tb1{
+		margin-bottom: 20px;
+		justify-content: center;
+	}
+	.free_delivery_maps img{
+		width: 245px;
+	}
+	.Aromatherapy p{
+		font-size: 15px;
+		line-height: 21px
+	}
+	#about_aerosol{
+		padding: 60px 0 60px;
+	}	
+}
+@media screen and (max-width: 479px){
+	.count-change_x{
+		left: 85%;
+	}
+}
+@media screen and (min-width: 991px){
+	.parfume_additions_rooms_buttons{
+		height: 100px;
+	}
+}
