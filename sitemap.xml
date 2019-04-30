@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://xn----7sbaf4afjeuxony.xn--p1ai/</loc>
+	<lastmod>2016-04-10T03:03:08+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xn----7sbaf4afjeuxony.xn--p1ai/index</loc>
+	<lastmod>2016-04-10T03:03:11+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xn----7sbaf4afjeuxony.xn--p1ai/buy</loc>
+	<lastmod>2016-04-10T03:03:13+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xn----7sbaf4afjeuxony.xn--p1ai/about</loc>
+	<lastmod>2016-04-10T03:03:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://xn----7sbaf4afjeuxony.xn--p1ai/advice</loc>
+	<lastmod>2016-04-10T03:03:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://xn----7sbaf4afjeuxony.xn--p1ai/creaking_teeth</loc>
+	<lastmod>2016-04-10T03:03:11+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://xn----7sbaf4afjeuxony.xn--p1ai/recommendation</loc>
+	<lastmod>2016-04-10T03:03:11+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+
+<url>
+	<loc>http://xn----7sbaf4afjeuxony.xn--p1ai/delivery</loc>
+	<lastmod>2016-04-10T03:03:13+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+</urlset>

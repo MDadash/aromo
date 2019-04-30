@@ -1,0 +1,791 @@
+/*  _________  BUTTONS STYLES  _________  */
+.page-butt {
+  display: inline-block;
+  background-color: #390037;
+  color: #ff00d2;
+  font-family: 'Museo Sans Cyrl';
+  font-weight: 600;
+  font-size: 21px;
+  padding: 17px 25px;
+  text-transform: uppercase; }
+  .page-butt:hover {
+    background-color: #ff00d2;
+    color: #fff; }
+  .page-butt:hover + .span-light {
+    border-color: #ff00d2; }
+
+.span-light,
+.light {
+  display: inline-block;
+  background-color: transparent;
+  border: 3px solid #390037;
+  padding: 14px 25px;
+  color: #390037; }
+
+.span-light:hover {
+  background-color: transparent;
+  color: #390037; }
+
+.light:hover {
+  color: #fff;
+  border-color: #ff00d2; }
+
+/*  _________  PARALLAX  _________  */
+.section {
+  position: relative; }
+  .section .container {
+    position: relative;
+    z-index: 3; }
+
+body {
+  overflow: hidden;
+  position: relative; }
+
+.img-parallax {
+  position: absolute;
+  max-width: 100%;
+  z-index: 1; }
+
+.home-parallax1 {
+  top: 3%;
+  left: 2%; }
+
+.home-parallax2 {
+  top: 0.1%;
+  right: 5%; }
+
+.home-parallax3 {
+  top: 0.1%;
+  left: 50px; }
+
+.home-parallax4 {
+  top: 8%;
+  right: 10%; }
+
+.emotions-parallax1 {
+  top: 13%;
+  left: 2%; }
+
+.emotions-parallax2 {
+  top: 10%;
+  left: 15%;
+  width: 6%; }
+
+.emotions-parallax3 {
+  right: 0;
+  top: 15%;
+  width: 10%; }
+
+.emotions-parallax4 {
+  top: 10%;
+  right: 15%;
+  width: 10%; }
+
+.about-parallax1 {
+  top: 30%;
+  width: 90%; }
+
+.about-parallax2 {
+  top: 28%;
+  right: 15%; }
+
+.aromatherapy-parallax1 {
+  top: 42%;
+  left: 30%; }
+
+.aromatherapy-parallax2 {
+  top: 38%;
+  left: 3%; }
+
+.aromatherapy-parallax3 {
+  top: 43%;
+  right: 30%; }
+
+.aromatherapy-parallax4 {
+  top: 43.5%;
+  right: 10%; }
+
+.aromatherapy-parallax5 {
+  top: 40%;
+  right: 35%; }
+
+.addition-parallax1 {
+  top: 45%;
+  left: 3%; }
+
+.addition-parallax2 {
+  top: 48%;
+  right: 3%; }
+
+.comparison-parallax1 {
+  top: 58%;
+  left: 0; }
+
+.comparison-parallax2 {
+  top: 54%;
+  left: 10%; }
+
+.comparison-parallax3 {
+  top: 56%;
+  right: 15%; }
+
+.comparison-parallax4 {
+  top: 61%;
+  right: 0; }
+
+.faq-parallax1 {
+  top: 62%;
+  left: 3%; }
+
+.faq-parallax2 {
+  top: 70%;
+  right: 9%; }
+
+.delivery-parallax1 {
+  top: 92%; }
+
+.delivery-parallax2 {
+  top: 88%;
+  right: 15%; }
+
+.delivery-parallax3 {
+  top: 95%;
+  right: 2%; }
+
+/*  _________  PROMO PRICE BUTTON  _________  */
+.promo-price {
+  white-space: nowrap; }
+  .promo-price .page-butt.span-light {
+    margin-left: -5px; }
+
+#promo-text .promo-price,
+.promo-price {
+  display: inline-block; }
+  #promo-text .promo-price p,
+  .promo-price p {
+    font-family: 'Adobe Clean Semi';
+    font-size: 18px;
+    color: #390037;
+    margin-top: 0;
+    float: none;
+    width: 100%;
+    text-align: right;
+    font-weight: 700;
+    line-height: 35px; }
+
+/*  _________  HEADER STYLES  _________  */
+#header {
+  background-color: #d4bcf2;
+  padding: 0 5%; }
+  #header .logo {
+    color: #793775;
+    font-size: 40px;
+    font-family: 'Baskerville Old Face';
+    width: auto;
+    float: left;
+    margin-left: 10px; }
+    #header .logo span {
+      font-size: 20px; }
+  #header .header-buttons {
+    float: right;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 68px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  #header #callback-butt,
+  #header .buy-now.butt.page-butt {
+    background: none !important;
+    border: none;
+    margin: 0;
+    padding: 0;
+    float: none;
+    height: 25px;
+    line-height: 0; }
+  #header #callback-butt {
+    margin-left: 15px;
+    margin-right: 10px; }
+
+/*  _________  MENU STYLES  _________  */
+nav {
+  float: none;
+  width: 90%;
+  margin: 0 0 0 80px; }
+  nav li.active a {
+    border-bottom-color: #793775;
+    color: #793775; }
+  nav li a {
+    color: #fff;
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 100;
+    white-space: nowrap;
+    padding: 0;
+    font-size: 13px;
+    margin: 0 5px;
+    text-transform: none; }
+    nav li a:hover {
+      color: #793775;
+      border-bottom-color: #793775; }
+    nav li a:focus {
+      outline: none;
+      color: #793775; }
+
+/*  _________  SLIDER PAGINATION STYLES  _________  */
+#home #promo-slider,
+#emotions #promo-slider {
+  height: auto; }
+
+#home .owl-dot,
+#emotions .owl-dot {
+  width: auto;
+  min-width: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 15px;
+  border-right: 1px solid black;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+  #home .owl-dot:hover,
+  #emotions .owl-dot:hover {
+    border-color: #000;
+    color: #d400b1; }
+  #home .owl-dot.active,
+  #emotions .owl-dot.active {
+    width: auto;
+    font-weight: 600;
+    color: #d400b1;
+    text-decoration: underline;
+    border-width: 1px;
+    border-color: #000; }
+    #home .owl-dot.active span,
+    #emotions .owl-dot.active span {
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  #home .owl-dot:last-child,
+  #emotions .owl-dot:last-child {
+    border-right: none;
+    padding-right: 0; }
+  #home .owl-dot:first-child,
+  #emotions .owl-dot:first-child {
+    padding-left: 0; }
+  #home .owl-dot span,
+  #emotions .owl-dot span {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: auto;
+    display: block;
+    text-transform: uppercase;
+    position: static; }
+
+/*  _________  SLIDER NAV STYLES  _________  */
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: -webkit-calc(50% - 15px);
+  top: -moz-calc(50% - 15px);
+  top: calc(50% - 15px);
+  height: 30px;
+  width: 30px;
+  cursor: pointer; }
+  .owl-prev i,
+  .owl-next i {
+    color: #793775;
+    border: 3px solid #793775;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0 5px; }
+    .owl-prev i.slider-arrow-next,
+    .owl-next i.slider-arrow-next {
+      padding: 0 6px 0 9px; }
+    .owl-prev i.slider-arrow-prev,
+    .owl-next i.slider-arrow-prev {
+      padding: 0 8px 0 7px; }
+    .owl-prev i:hover,
+    .owl-next i:hover {
+      color: #d400b1;
+      border-color: #d400b1;
+      cursor: pointer; }
+
+.owl-prev {
+  left: 0; }
+
+.owl-next {
+  right: 7px; }
+
+/*  _________  SECTION HOME STYLES  _________  */
+#home {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  position: relative;
+  background: url(../images/bg_section1.png) no-repeat 50% 0%;
+  font-family: 'Museo Sans Cyrl'; }
+  #home h1 {
+    font-weight: 900;
+    font-size: 78px;
+    color: #793775;
+    line-height: 78px; }
+  #home h6 {
+    color: #390037;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase; }
+  #home p {
+    color: #390037;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Adobe Clean';
+    font-weight: 400; }
+  #home .owl-nav {
+    height: 100%;
+    position: relative; }
+    #home .owl-nav .owl-prev,
+    #home .owl-nav .owl-next {
+      top: -300px; }
+  #home .page-slider img {
+    max-width: 200%;
+    position: relative;
+    left: -231px; }
+  #home .owl-carousel {
+    position: static; }
+  #home .owl-controls {
+    position: relative; }
+  #home .owl-dots {
+    bottom: -25px; }
+
+/*  _________  SECTION EMOTIONS STYLES  _________  */
+#emotions {
+  padding: 80px 0;
+  background: url(../images/C&D-assets/bg_section2.png) no-repeat center 10%; }
+  #emotions .owl-dots {
+    position: static;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px; }
+  #emotions .page-slider {
+    margin: 0 !important;
+    height: auto !important;
+    text-align: left; }
+  #emotions .slide-text {
+    padding-top: 100px; }
+  #emotions h1,
+  #emotions h6 {
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 600;
+    color: #793775; }
+  #emotions h1 {
+    line-height: 65px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center; }
+  #emotions h6 {
+    font-size: 28px;
+    margin-bottom: 25px; }
+  #emotions .slide p {
+    color: #390037;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Adobe Clean';
+    font-weight: 400;
+    max-width: 430px; }
+
+.callrequest_button {
+  margin-top: 70px; }
+  .callrequest_button p {
+    margin-bottom: 25px;
+    color: #390037;
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 300; }
+
+/*  _________  SECTION NATURAL STYLES  _________  */
+#natural {
+  background: url(../images/bg_natural.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 85px 0 100px; }
+  #natural h3 {
+    color: #793775;
+    font-family: 'Museo Sans Cyrl';
+    font-weight: bold;
+    max-width: 740px;
+    margin: 0 auto;
+    margin-bottom: 100px; }
+
+.advant {
+  margin-bottom: 60px;
+  margin-left: 0; }
+  .advant:nth-child(2), .advant:nth-child(3), .advant:nth-child(1) {
+    padding-left: 0; }
+
+.advant .icon-div,
+.advant p {
+  width: 100%;
+  text-align: center; }
+
+.advant p {
+  font-family: 'Adobe Clean';
+  font-size: 19px;
+  color: #793775; }
+
+#feedbacks .page-butt {
+  text-transform: none; }
+
+#feedbacks .left-feed {
+  padding-left: 41px; }
+
+/*  _________  SECTION ABOUT_AEROSOL STYLES  _________  */
+#about_aerosol {
+  padding: 120px 0 60px;
+  position: relative;
+  background: url(../images/C&D-assets/bg_section4.png) no-repeat center 58%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+  #about_aerosol h2 {
+    color: #793775;
+    font-family: 'Museo Sans Cyrl';
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    margin-top: 100px; }
+  #about_aerosol .promo-price {
+    margin-top: 200px;
+    text-align: right; }
+
+/*_________  SECTION FAQ _________ */
+#faq {
+  background: url(../images/C&D-assets/border.png) no-repeat top center; }
+
+/*_________  SECTION slider_max_w styles _________ */
+#slider_max_w .owl-prev,
+#slider_max_w .owl-next {
+  top: 50%;
+  margin-top: -31px;
+  cursor: pointer; }
+
+/*  _________  SECTION PAYMENTS STYLES  _________  */
+#payments-wrap {
+  border-bottom-color: #e2e2e2; }
+
+.payments_logo {
+  cursor: pointer; }
+  .payments_logo p {
+    font-family: 'Baskerville Old Face'; }
+  .payments_logo:hover * {
+    color: #a8a8a8; }
+  .payments_logo > span {
+    font-family: 'Arial'; }
+
+/*  _________  social icons   _________  */
+.payments_soc_icons {
+  font-size: 20px; }
+  .payments_soc_icons a {
+    margin-left: 20px;
+    color: #a8a8a8; }
+    .payments_soc_icons a:first-child {
+      margin-left: 0; }
+    .payments_soc_icons a:hover {
+      color: #d400b1; }
+
+/*  _________  MEDIA QUERIES  _________  */
+@media only screen and (max-width: 1400px) {
+  #header {
+    padding: 0; } }
+
+@media only screen and (min-width: 1200px) {
+  nav li a {
+    font-size: 16px;
+    margin: 0 7px; }
+  #delivery img {
+    display: inline; }
+  #delivery .free_delivery {
+    padding: 0; }
+  #home .owl-nav .owl-next,
+  #home .owl-nav .owl-prev {
+    top: -400px; } }
+
+@media only screen and (max-width: 1199px) {
+  #home .owl-dots {
+    bottom: -111px; }
+  #delivery img {
+    display: none; }
+  #delivery .free_delivery {
+    padding: 0 15px; }
+  #delivery-wrap {
+    margin-bottom: 30px;
+    padding: 0 15px; } }
+
+@media only screen and (min-width: 992px) {
+  nav {
+    display: block !important; }
+  .advant {
+    float: none;
+    display: inline-block; } }
+
+@media only screen and (max-width: 991px) {
+  #header .header-buttons {
+    height: 58px; }
+  .header-buttons * {
+    display: inline-block !important;
+    margin-bottom: 0 !important; }
+  #mobile-menu-butt {
+    display: block;
+    /* float: right; */
+    height: 42px;
+    padding: 0 20px;
+    margin: 0 0 0 5px;
+    border: none;
+    background: url(../images/icons/mobile-menu-butt.png) 50% no-repeat; }
+  nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 52px;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd; }
+    nav ul {
+      display: block; }
+    nav li {
+      display: block;
+      height: 45px; }
+      nav li a {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #ddd;
+        height: 45px;
+        line-height: 45px;
+        color: #793775;
+        font-weight: 300;
+        font-size: 20px; }
+  #home h1 {
+    font-size: 50px;
+    line-height: 50px; }
+  #home .page-butt {
+    font-size: 18px; }
+  #home .page-slider img {
+    left: -85px; }
+  #home .owl-dots {
+    bottom: -85px;
+    left: -55px;
+    width: 300px; }
+    #home .owl-dots .owl-dot {
+      padding: 0 3px; }
+    #home .owl-dots span {
+      font-size: 12px; }
+  #home .owl-nav .owl-next {
+    right: -33px; }
+  #home .owl-nav .owl-next,
+  #home .owl-nav .owl-prev {
+    top: -140px; }
+    #home .owl-nav .owl-next i,
+    #home .owl-nav .owl-prev i {
+      font-size: 18px;
+      border-width: 2px; }
+      #home .owl-nav .owl-next i.slider-arrow-next,
+      #home .owl-nav .owl-prev i.slider-arrow-next {
+        padding: 0px 3px 0 5px; }
+      #home .owl-nav .owl-next i.slider-arrow-prev,
+      #home .owl-nav .owl-prev i.slider-arrow-prev {
+        padding: 0px 5px 0 3px; }
+  #emotions {
+    padding: 40px 0; }
+    #emotions .slide-text {
+      padding-top: 0; }
+    #emotions h1 {
+      line-height: 30px;
+      margin-bottom: 10px;
+      font-size: 30px; }
+    #emotions h6 {
+      font-size: 23px;
+      margin-bottom: 10px; }
+    #emotions .slide p {
+      font-size: 16px;
+      line-height: 18px;
+      font-family: 'Adobe Clean';
+      width: 90%; }
+    #emotions .owl-prev,
+    #emotions .owl-next {
+      top: -webkit-calc(50% - 15px);
+      top: -moz-calc(50% - 15px);
+      top: calc(50% - 15px); }
+  .callrequest_button {
+    margin-top: 45px; }
+    .callrequest_button p {
+      margin-bottom: 10px; }
+  #about_aerosol {
+    position: relative; }
+    #about_aerosol h2 {
+      margin-top: 0; }
+    #about_aerosol .bottle-wrap {
+      position: static; }
+    #about_aerosol img {
+      position: absolute;
+      right: 10px;
+      top: 150px;
+      max-height: 500px; }
+    #about_aerosol .promo-price {
+      margin-top: 50px;
+      text-align: center; }
+    #about_aerosol .promo-text p {
+      font-family: 'Adobe Clean Semi';
+      font-size: 18px;
+      color: #390037;
+      line-height: 35px; }
+    #about_aerosol .spoil-body p {
+      padding-right: 150px; }
+    #about_aerosol .page-butt {
+      font-size: 18px; }
+  #faq h2 {
+    font-size: 45px;
+    margin-bottom: 15px; }
+  #faq .bouquet-wrap {
+    display: none; }
+  #slider_max_w .owl-prev {
+    left: 0; }
+  #slider_max_w .owl-next {
+    right: 0; }
+  #delivery .free_delivery {
+    text-align: center; }
+    #delivery .free_delivery h2 {
+      font-size: 45px; }
+  .payments_addres {
+    margin: 15px 0; }
+  #payments-wrap img {
+    width: auto;
+    margin: 0 14px 20px; } }
+
+@media only screen and (max-width: 767px) {
+  .owl-nav {
+    display: none; }
+  #header .header-buttons {
+    height: 52px; }
+  .page-slider {
+    line-height: unset !important; }
+  #home {
+    padding-top: 100px;
+    padding-bottom: 0; }
+    #home #promo-text > p,
+    #home #promo-text > h6 {
+      text-align: left;
+      line-height: 18px;
+      margin-left: 25px; }
+    #home #promo-text h1 {
+      font-size: 40px;
+      line-height: 41px; }
+    #home #promo-text .promo-price {
+      margin-bottom: 0; }
+      #home #promo-text .promo-price p {
+        float: none;
+        margin-right: 0;
+        text-align: center;
+        padding-left: 0; }
+    #home .page-butt {
+      margin: 0; }
+    #home .page-butt.span-light {
+      margin-left: -5px; }
+    #home .owl-dots {
+      bottom: -25px;
+      left: 0;
+      width: auto; }
+      #home .owl-dots .owl-dot {
+        padding: 0 15px; }
+      #home .owl-dots span {
+        font-size: 16px; }
+    #home #promo-slider {
+      position: absolute;
+      top: 20px; }
+      #home #promo-slider img {
+        left: unset;
+        max-width: 100%; }
+  .spoiler {
+    margin-bottom: 0; }
+  #natural {
+    padding: 40px 0; }
+    #natural h3 {
+      margin-bottom: 40px; }
+  #about_aerosol {
+    padding: 40px 0; }
+    #about_aerosol h2 {
+      text-align: center;
+      margin-bottom: 15px; }
+    #about_aerosol .bottle-wrap {
+      display: none; }
+    #about_aerosol .spoiler-wrap {
+      text-align: center;
+      padding: 0; }
+    #about_aerosol .spoil-body p {
+      padding-right: 15px; }
+    #about_aerosol .promo-price p {
+      text-align: center; }
+    #about_aerosol .page-butt {
+      margin: 0; }
+    #about_aerosol .page-butt.span-light {
+      margin-left: -5px; }
+  #feedbacks .left-feed {
+    padding-left: 25px; }
+  #slider_max_w .page-slider {
+    margin-top: 0 !important; }
+  #delivery p {
+    margin-bottom: 15px;
+    line-height: normal; } }
+
+/**/
+@media (min-width: 576px) and (max-width: 767px) {
+  #emotions .col-xs-12.col-sm-8 {
+    width: 66.66666667%; }
+  #emotions .col-xs-12.col-sm-4 {
+    width: 33.33333333%; }
+  #emotions .owl-nav {
+    display: none; }
+  .callrequest_button {
+    margin-top: 30px; } }
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .page-butt {
+    font-size: 16px;
+    padding: 15px 20px; }
+    .page-butt.light {
+      padding: 12px 20px; }
+  .promo-price .page-butt.light {
+    display: none; }
+  #emotions .owl-dots .owl-dot,
+  #home .owl-dots .owl-dot {
+    font-size: 10px;
+    padding: 0 5px; }
+    #emotions .owl-dots .owl-dot span,
+    #home .owl-dots .owl-dot span {
+      font-size: 10px; }
+  #emotions h1 {
+    line-height: 26px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    margin-top: 15px; }
+  #emotions h6 {
+    font-size: 18px;
+    margin-bottom: 5px; }
+  #emotions .slide p {
+    line-height: 16px;
+    width: 100%;
+    max-width: 100%; }
+  .owl-nav {
+    display: none; }
+  .callrequest_button {
+    margin-top: 20px; }
+    .callrequest_button .page-butt {
+      font-size: 19px; }
+  #about_aerosol h2 {
+    font-size: 26px !important; } }
